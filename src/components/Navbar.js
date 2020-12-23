@@ -20,7 +20,7 @@ function Navbar() {
                 </div>
                 <div className="nav-icons">
                     <a href="https://github.com/Shahab-Athar">
-                        <i class="fab fa-github fa-lg"></i>
+                        <i class="fab fa-github fa-2x"></i>
                     </a>
                 </div>
             </div>

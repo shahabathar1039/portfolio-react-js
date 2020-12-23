@@ -1,0 +1,82 @@
+.advertisement {
+    margin-left: 30px;
+}
+
+.fa-envelope-square {
+    position: absolute;
+    bottom: 10px;
+}
+
+.fa-twitter {
+    position: absolute;
+    bottom: 50px;
+}
+
+.fa-instagram {
+    position: absolute;
+    bottom: 100px;
+}
+
+.fa-facebook {
+    position: absolute;
+    bottom: 150px;
+}
+
+.fa-youtube {
+    position: absolute;
+    bottom: 200px;
+}
+
+.btn-home {
+    float: right;
+}
+
+.btn-all {
+    position: relative;
+    top: -300px;
+    cursor: pointer;
+}
+
+.skills {
+    margin-top: 200px;
+    background: #3498db;
+    padding: 10px 20px;
+}
+
+.projects {
+    position: relative;
+    bottom: -300px;
+    right: 0px;
+    background: #3498db;
+    padding: 10px 20px;
+}
+
+.about {
+    padding: 10px 20px;
+    background: #3498db;
+}
+
+.slogo h1 {
+    margin-top: 280px;
+}
+
+.fa-sitemap {
+    margin-left: 6px;
+}
+
+.fa-tasks {
+    margin-left: 15px;
+}
+
+/* span {
+    margin-left: 10px;
+} */
+
+.fa-address-card {
+    margin-left: 10px;
+}
+
+.redirect {
+    color: black;
+    text-decoration: none;
+}

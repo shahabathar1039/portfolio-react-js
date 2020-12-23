@@ -52,13 +52,13 @@
 
 .btn {
     border: 1px solid #3498db;
-    background: none;
     padding: 10px 20px;
     font-size: 20px;
     font-family: "montserrat";
     cursor: pointer;
     margin-left: 50px;
     border-radius: 20px;
+    transition: 0.8s;
 }
 
 .btn a {
@@ -68,6 +68,10 @@
     transition: 0.8s;
 }
 
+.btn:hover {
+    background: #3498db;
+}
+
 .btn a:hover {
-    padding: 5px 7px;
+    color: #fff;
 }
