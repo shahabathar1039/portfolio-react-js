@@ -19,32 +19,32 @@ function Home() {
             </div>
             <div className="btn-home">
                 <div className="btn-all">
-                    <a className="redirect" href="/about">
+                    <a className="redirect" href="/short-description">
                         <p className="about">
-                                <span>
-                                    About
-                                </span>
-                                <br/>
-                                <br/>
-                                <i class="far fa-address-card fa-lg"></i>
+                            <span>
+                                About
+                            </span>
+                            <br/>
+                            <br/>
+                            <i class="far fa-address-card fa-lg"></i>
                         </p>
                     </a>
-                    <a className="redirect" href="/tech-stack">
+                    <a className="redirect" href="/skills">
                         <p className="skills">
-                                Skills
-                                <br/>
-                                <br/>
-                                <i class="fas fa-sitemap fa-lg"></i>
+                            Skills
+                            <br/>
+                            <br/>
+                            <i class="fas fa-sitemap fa-lg"></i>
                         </p>
                     </a>
                     <a className="redirect" href="/projects">
                     <p className="projects">
-                            <span>
-                                Project
-                            </span>
-                            <br/>
-                            <br/>
-                            <i class="fas fa-tasks fa-lg"></i>
+                        <span>
+                            Project
+                        </span>
+                        <br/>
+                        <br/>
+                        <i class="fas fa-tasks fa-lg"></i>
                     </p>
                     </a>
                 </div>

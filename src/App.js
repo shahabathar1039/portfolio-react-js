@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from './components/Navbar';
 import Home from './components/Home'
 import AboutTm from './components/AboutTm';
+import Skills from './components/Skills';
 
 function App() {
   return (
@@ -29,13 +30,12 @@ function App() {
             <Navbar />
             <AboutTm />
           </Route>
-          <Route path="/tech-stack">
+          <Route path="/skills">
             <Navbar />
-            <h1>Skills</h1>
+            <Skills />
           </Route>
-          <Route path="/tech-stack">
+          <Route path="/top-projects">
             <Navbar />
-            <h1>Skills</h1>
           </Route>
           <Route path="/">
             <Navbar />
