@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from "react-router-dom";
 // Importing Css
 import './Navbar.css'
 
@@ -7,13 +6,13 @@ function Navbar() {
     return (
         <div className="navbar">
             <div className="navbar-left">
-                <Link to="/"><i className="logo">𝓼</i></Link>
+                <a href="/"><i className="logo">𝓼</i></a>
             </div>
             <div className="navbar-right">
                 <div className="links">
-                    <Link to="/about">About</Link>
-                    <Link to="/projects">Projects</Link>
-                    <Link to="/contact">Get In Touch</Link>
+                    <a href="/about">About</a>
+                    <a href="/projects">Projects</a>
+                    <a href="/contact">Get In Touch</a>
                 </div>
                 <div className="btn">
                     <a href="/tech-stack">Tech Stack</a>

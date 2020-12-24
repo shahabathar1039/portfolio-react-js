@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home'
 import AboutTm from './components/AboutTm';
 import Skills from './components/Skills';
+import TopProjects from "./components/TopProjects"
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
           </Route>
           <Route path="/top-projects">
             <Navbar />
+            <TopProjects />
           </Route>
           <Route path="/">
             <Navbar />

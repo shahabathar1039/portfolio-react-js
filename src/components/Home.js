@@ -3,14 +3,17 @@ import "./Home.css"
 // import { Link } from "react-router-dom";
 
 function Home() {
+    const email = () => {
+        alert('Contact Me At shahabathar1039@gmail.com')
+    }
     return (
         <div className="home">
             <div className="advertisement">
-                <div><i class="fab fa-youtube fa-2x"></i></div>
-                <div><i class="fab fa-facebook fa-2x"></i></div>
-                <div><i class="fab fa-instagram fa-2x"></i></div>
-                <div><i class="fab fa-twitter fa-2x"></i></div>
-                <div><i class="fas fa-envelope-square fa-2x"></i></div>
+                <a href="https://pk.linkedin.com/" style={{ textDecoration: "none", color:"black" }}><i class="fab fa-linkedin-in fa-lg"></i></a>
+                <a href="https://www.facebook.com/shahab.athar.94" style={{ textDecoration: "none", color:"black" }}><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://www.instagram.com/mr.unpopulur/" style={{ textDecoration: "none", color:"black" }}><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://twitter.com/MUnpopulur" style={{ textDecoration: "none", color:"black" }}><i class="fab fa-twitter fa-2x"></i></a>
+                <div onClick={email} style={{ cursor: "pointer" }}><i class="fas fa-envelope-square fa-2x"></i></div>
             </div>
             <div className="slogo">
                 <center>
@@ -37,15 +40,15 @@ function Home() {
                             <i class="fas fa-sitemap fa-lg"></i>
                         </p>
                     </a>
-                    <a className="redirect" href="/projects">
-                    <p className="projects">
-                        <span>
-                            Project
-                        </span>
-                        <br/>
-                        <br/>
-                        <i class="fas fa-tasks fa-lg"></i>
-                    </p>
+                    <a className="redirect" href="/top-projects">
+                        <p className="projects">
+                            <span>
+                                Project
+                            </span>
+                            <br/>
+                            <br/>
+                            <i class="fas fa-tasks fa-lg"></i>
+                        </p>
                     </a>
                 </div>
             </div>

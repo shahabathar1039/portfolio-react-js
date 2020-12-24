@@ -22,9 +22,10 @@
     bottom: 150px;
 }
 
-.fa-youtube {
+.fa-linkedin-in {
     position: absolute;
     bottom: 200px;
+    margin-left: 7px;
 }
 
 .btn-home {
@@ -33,20 +34,18 @@
 
 .btn-all {
     position: relative;
-    top: -300px;
+    top: 0px;
     cursor: pointer;
 }
 
 .skills {
-    margin-top: 200px;
+    margin-top: 150px;
     background: #3498db;
     padding: 10px 20px;
 }
 
 .projects {
-    position: relative;
-    bottom: -300px;
-    right: 0px;
+    margin-top: 200px;
     background: #3498db;
     padding: 10px 20px;
 }
@@ -57,7 +56,9 @@
 }
 
 .slogo h1 {
-    margin-top: 280px;
+    position: relative;
+    top: 280px;
+    /* margin-top: 280px; */
 }
 
 .fa-sitemap {
