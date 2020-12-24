@@ -2,9 +2,10 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from './components/Navbar';
 import Home from './components/Home'
-import AboutTm from './components/AboutTm';
 import Skills from './components/Skills';
 import TopProjects from "./components/TopProjects"
+import Projects from './components/Projects';
+import Contacts from './components/Contacts';
 
 function App() {
   return (
@@ -17,19 +18,15 @@ function App() {
           </Route>
           <Route path="/projects">
             <Navbar />
-            <h1>Projects Page</h1>
+            <Projects />
           </Route>
           <Route path="/contact">
             <Navbar />
-            <h1>Contact Page</h1>
+            <Contacts />
           </Route>
           <Route path="/tech-stack">
             <Navbar />
             <h1>Skills</h1>
-          </Route>
-          <Route path="/short-description">
-            <Navbar />
-            <AboutTm />
           </Route>
           <Route path="/skills">
             <Navbar />

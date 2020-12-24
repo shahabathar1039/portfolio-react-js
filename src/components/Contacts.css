@@ -1,0 +1,41 @@
+.banner {
+    height: 400px;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    font-family: sans-serif;
+}
+
+.banner h1{
+    position: relative;
+    top: 150px;
+}
+
+.contacts {
+    margin: 30px 80px;
+    display: flex;
+}
+
+.contacts p {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: underline;
+}
+
+.contact {
+    margin-left: 40px;
+}
+
+.experience {
+    margin-left: 350px;
+}
+
+.experience li{
+    margin-left: 30px;
+}
+
+.nested-experiance {
+    margin-left: 30px;
+}

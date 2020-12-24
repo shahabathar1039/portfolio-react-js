@@ -1,7 +1,7 @@
 import React from 'react'
-import "./TopProjects.css"
+import './Projects.css'
 
-function TopProjects() {
+function Projects() {
     return (
         <div className="proj">
             <a href="https://mytodo-5c2a4.web.app/">
@@ -16,4 +16,4 @@ function TopProjects() {
     )
 }
 
-export default TopProjects
+export default Projects

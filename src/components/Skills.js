@@ -1,5 +1,4 @@
 import React from 'react'
-import './AboutTm.css'
 
 function Skills() {
     return (

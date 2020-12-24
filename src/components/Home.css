@@ -2,34 +2,35 @@
     margin-left: 30px;
 }
 
-.fa-envelope-square {
+.gmail {
     position: absolute;
     bottom: 10px;
 }
 
-.fa-twitter {
+.twitter {
     position: absolute;
     bottom: 50px;
 }
 
-.fa-instagram {
+.instagram {
     position: absolute;
     bottom: 100px;
 }
 
-.fa-facebook {
+.facebook {
     position: absolute;
     bottom: 150px;
 }
 
-.fa-linkedin-in {
+.linkedin {
     position: absolute;
     bottom: 200px;
     margin-left: 7px;
 }
 
 .btn-home {
-    float: right;
+    position: absolute;
+    right: 0px;
 }
 
 .btn-all {
@@ -40,38 +41,37 @@
 
 .skills {
     margin-top: 150px;
-    background: #3498db;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
     padding: 10px 20px;
 }
 
 .projects {
     margin-top: 200px;
-    background: #3498db;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
     padding: 10px 20px;
 }
 
 .about {
     padding: 10px 20px;
-    background: #3498db;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+.skills span{
+    margin-left: 7px;
 }
 
 .slogo h1 {
     position: relative;
     top: 280px;
-    /* margin-top: 280px; */
 }
 
 .fa-sitemap {
-    margin-left: 6px;
+    margin-left: 13px;
 }
 
 .fa-tasks {
-    margin-left: 15px;
+    margin-left: 13px;
 }
-
-/* span {
-    margin-left: 10px;
-} */
 
 .fa-address-card {
     margin-left: 10px;
@@ -80,4 +80,20 @@
 .redirect {
     color: black;
     text-decoration: none;
+}
+
+body {
+    animation: loadintransition 1s;
+}
+
+@keyframes loadintransition {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
